@@ -1,0 +1,17 @@
+.study-screen { min-height: 100vh; padding-bottom: 100px; }
+.study-header { text-align: center; margin-bottom: 32px; }
+.study-title { font-size: 28px; font-weight: 700; color: var(--text-primary); margin-bottom: 8px; }
+.study-subtitle { font-size: 16px; color: var(--text-secondary); }
+.modes-grid { display: grid; gap: 16px; }
+.mode-card { width: 100%; padding: 20px; background: white; border: 2px solid var(--border); border-radius: 12px; display: flex; align-items: center; gap: 16px; cursor: pointer; transition: all 0.2s; text-align: left; }
+.mode-card:hover:not(:disabled) { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--primary); }
+.mode-card:disabled { opacity: 0.5; cursor: not-allowed; }
+.mode-icon { width: 64px; height: 64px; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.mode-content { flex: 1; }
+.mode-name { font-size: 18px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; }
+.mode-description { font-size: 14px; color: var(--text-secondary); }
+.no-words-message { text-align: center; padding: 40px 20px; color: var(--text-secondary); }
+.study-mode-container { min-height: 100vh; }
+.study-mode-header { padding: 16px 20px; background: white; border-bottom: 1px solid var(--border); position: sticky; top: 56px; z-index: 10; display: flex; align-items: center; gap: 16px; }
+.back-button { display: flex; align-items: center; gap: 8px; background: none; border: none; color: var(--primary); font-weight: 600; cursor: pointer; padding: 8px; }
+.mode-title { font-size: 18px; font-weight: 700; }
