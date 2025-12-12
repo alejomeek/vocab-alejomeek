@@ -3,7 +3,7 @@ import { BookOpen, CheckSquare, Edit3, Headphones, ArrowLeft } from 'lucide-reac
 import { useWords } from '../hooks/useWords'
 import { useStudy } from '../hooks/useStudy'
 import { getWordsToStudyToday } from '../utils/spacedRepetition'
-import FlashcardsMode from './study/FlashcardsMode'
+import FlashcardsMode from './study/FlashCardsMode'
 import MultipleChoiceMode from './study/MultipleChoiceMode'
 import WriteTranslationMode from './study/WriteTranslationMode'
 import ListenWriteMode from './study/ListenWriteMode'
